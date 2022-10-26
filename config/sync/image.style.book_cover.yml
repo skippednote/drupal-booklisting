@@ -1,0 +1,15 @@
+uuid: 2cf285b3-be49-4854-8129-14c0fa0d2ee0
+langcode: en
+status: true
+dependencies: {  }
+name: book_cover
+label: 'Book cover'
+effects:
+  ce8b1a4e-16ab-4091-a4bd-0f34fd874b09:
+    uuid: ce8b1a4e-16ab-4091-a4bd-0f34fd874b09
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 200
+      height: 200
+      anchor: center-center

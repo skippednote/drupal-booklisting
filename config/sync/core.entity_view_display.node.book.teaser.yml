@@ -1,0 +1,36 @@
+uuid: cec27cbf-16ae-4ef1-9546-437002fa93d0
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.book.body
+    - field.field.node.book.field_author
+    - field.field.node.book.field_cover
+    - field.field.node.book.field_genere
+    - node.type.book
+  module:
+    - text
+    - user
+id: node.book.teaser
+targetEntityType: node
+bundle: book
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_author: true
+  field_cover: true
+  field_genere: true
