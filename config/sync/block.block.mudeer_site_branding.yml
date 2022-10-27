@@ -1,0 +1,25 @@
+uuid: cec65bcf-5688-470b-9fc2-3a82954fc8e3
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mudeer
+_core:
+  default_config_hash: n_nlgjggHVfQt2H__zvLOKB2YtjPDbQ5tHijF9LE1aM
+id: mudeer_site_branding
+theme: mudeer
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

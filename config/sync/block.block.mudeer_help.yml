@@ -1,0 +1,22 @@
+uuid: e366a483-6017-48a0-b5a0-5441202ddf0e
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - mudeer
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: mudeer_help
+theme: mudeer
+region: sidebar_first
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

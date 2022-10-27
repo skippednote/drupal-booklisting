@@ -1,0 +1,22 @@
+uuid: dfeb2ca3-4f0e-42e4-a415-480d23db3a4a
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mudeer
+_core:
+  default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
+id: mudeer_breadcrumbs
+theme: mudeer
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

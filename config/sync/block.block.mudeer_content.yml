@@ -1,0 +1,22 @@
+uuid: 878039c0-1935-4f26-b016-f5d8339b0a9c
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mudeer
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: mudeer_content
+theme: mudeer
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

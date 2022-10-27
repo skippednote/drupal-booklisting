@@ -1,0 +1,33 @@
+uuid: 03281ff7-eb48-4a67-ae0c-56e7a816bb5e
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.book
+  module:
+    - block_class
+    - system
+    - views
+  theme:
+    - mudeer
+third_party_settings:
+  block_class:
+    classes: book-listing
+id: mudeer_views_block__book_block_1
+theme: mudeer
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:book-block_1'
+settings:
+  id: 'views_block:book-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

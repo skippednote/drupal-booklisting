@@ -163,10 +163,15 @@ display:
         type: default
         options:
           grouping: {  }
-          row_class: ''
-          default_row_class: true
+          row_class: bassam
+          default_row_class: false
       row:
         type: fields
+        options:
+          default_field_elements: true
+          inline: {  }
+          separator: ''
+          hide_empty: false
       query:
         type: views_query
         options:
@@ -176,6 +181,7 @@ display:
           replica: false
           query_tags: {  }
       relationships: {  }
+      css_class: book-listing__view
       header: {  }
       footer:
         area:

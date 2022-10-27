@@ -1,0 +1,20 @@
+uuid: 19bce008-f5a4-4c67-920c-d65bf43e163f
+langcode: en
+status: true
+dependencies:
+  theme:
+    - mudeer
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: mudeer_primary_admin_actions
+theme: mudeer
+region: highlighted
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }
