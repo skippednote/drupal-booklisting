@@ -1,0 +1,4 @@
+booklisting:
+  css:
+    theme:
+      css/book-listing.css: {}

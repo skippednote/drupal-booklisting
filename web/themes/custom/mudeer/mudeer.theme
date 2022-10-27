@@ -1,0 +1,17 @@
+<?php
+
+
+function mudeer_preprocess_views_view_unformatted(&$variables) {
+}
+
+function mudeer_theme_suggestions_views_view_unformatted_alter(&$suggestions, $variables) {
+    if ($variables['view']->id() === "book" && $variables['view']->current_display === "block_1") {
+        $suggestions[] = "views_view_unformatted__book_listing";
+    }
+}
+
+
+function mudeer_preprocess_node(&$variables) {
+    $variables['attributes']['class'][] = 'book';
+    $variables['mudeer_date'] = "Mudeer Khan";
+}

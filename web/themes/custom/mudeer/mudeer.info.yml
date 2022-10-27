@@ -1,0 +1,9 @@
+name: Mudeer
+descripion: Theme for Book Store
+type: theme
+core_version_requirement: ^9 || ^10
+base theme: 'stable9'
+
+libraries:
+  - core/normalize
+  - mudeer/booklisting
